@@ -1,0 +1,137 @@
+.text-orange {
+    color: rgb(255, 105, 5) !important;
+}
+
+.text-cyan {
+    color: rgb(6, 159, 180) !important;
+}
+
+.bg-cyan-dark {
+    background-color: rgb(2, 47, 55) !important;
+}
+
+.app-btn-hover {
+    transition: all 0.5s;
+}
+
+.app-btn-hover:hover {
+    background-color: rgb(255, 135, 15) !important;
+    color: white !important;
+}
+
+.light-btn-hover {
+    transition: all 0.5s;
+}
+
+.light-btn-hover:hover {
+    background-color: rgb(225, 255, 255) !important;
+}
+
+.text-hover-orange {
+    transition: all 0.5s;
+}
+
+.text-hover-orange:hover {
+    color: rgb(255, 105, 5) !important;
+}
+
+.light-btn-hover:hover .text-hover-orange {
+    color: rgb(255, 105, 5) !important;
+}
+
+
+@media screen and (max-width: 1399px) {
+    .text-xs {
+        font-size: 14px !important;
+    }
+
+    .text-sm {
+        font-size: 18px !important;
+    }
+    
+    .text-xl {
+        font-size: 40px !important;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .text-lg {
+        font-size: 24px !important;
+    }
+
+    .app-details-text {
+        font-size: 14px;
+    }
+
+    .app-btn {
+        flex-direction: column;
+        gap: 0 !important;
+    }
+
+    .app-btn-element {
+        gap: 8px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hide-border {
+        border: none !important;
+    }
+
+    .app-card {
+        width: 65%;
+    }
+
+    .app-btn {
+        flex-direction: row;
+        gap: 20px !important;
+    }
+
+    .app-btn-element {
+        gap: 10px !important;
+        padding: 15px 32px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .width-70 {
+        width: 70% !important;
+    }
+
+    .app-btn {
+        flex-direction: column;
+        gap: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .text-sm {
+        font-size: 16px !important;
+    }
+
+    .app-card {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 452px) {
+    .width-70 {
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hide-display {
+        display: none;
+    }
+
+    .text-lg {
+        font-size: 20px !important;
+    }
+
+    .app-card {
+        width: 100%;
+    }
+}
+
